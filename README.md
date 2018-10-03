@@ -1,4 +1,5 @@
-#PC-Configurator 
+# PC-Configurator
+
 Рабочее название приложения: Конфигуратор ПК
  
 Официальное название (может изменяться): PC-Configurator Online
