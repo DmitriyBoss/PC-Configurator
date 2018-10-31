@@ -17,7 +17,7 @@
 
 ### 3. Диаграмма прецедентов<a name="3"></a>
 Диаграмма прецедентов представляет собой следующую диаграмму: 
-![Use-Case]()
+![Use-Case](https://github.com/Notchik/PC-Configurator/blob/master/UML%20Diagrams/UseCase.png)
 #### 3.1 Актёры<a name="1.1"></a>
 Актёр | Описание
 --- | ---
