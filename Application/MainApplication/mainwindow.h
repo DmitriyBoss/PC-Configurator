@@ -28,29 +28,29 @@ private slots:
 
     QByteArray filePrint();
 
-    void on_comboBox_currentTextChanged(const QString &arg1);
+    void on_comboBox_currentTextChanged(const QString &arg1);   //Название метода (слота) не ассоциируются с объектам, с которым он работает @NikiTer
 
-    void on_comboBox_2_currentTextChanged(const QString &arg1);
+    void on_comboBox_2_currentTextChanged(const QString &arg1); //Название метода (слота) не ассоциируются с объектам, с которым он работает @NikiTer
 
-    void on_comboBox_3_currentTextChanged(const QString &arg1);
+    void on_comboBox_3_currentTextChanged(const QString &arg1); //Название метода (слота) не ассоциируются с объектам, с которым он работает @NikiTer
 
-    void on_comboBox_4_currentTextChanged(const QString &arg1);
+    void on_comboBox_4_currentTextChanged(const QString &arg1); //Название метода (слота) не ассоциируются с объектам, с которым он работает @NikiTer
 
-    void on_comboBox_5_currentTextChanged(const QString &arg1);
+    void on_comboBox_5_currentTextChanged(const QString &arg1); //Название метода (слота) не ассоциируются с объектам, с которым он работает @NikiTer
 
-    void on_comboBox_6_currentTextChanged(const QString &arg1);
+    void on_comboBox_6_currentTextChanged(const QString &arg1); //Название метода (слота) не ассоциируются с объектам, с которым он работает @NikiTer
 
-    void on_comboBox_7_currentTextChanged(const QString &arg1);
+    void on_comboBox_7_currentTextChanged(const QString &arg1); //Название метода (слота) не ассоциируются с объектам, с которым он работает @NikiTer
 
-    void on_comboBox_8_currentTextChanged(const QString &arg1);
+    void on_comboBox_8_currentTextChanged(const QString &arg1); //Название метода (слота) не ассоциируются с объектам, с которым он работает @NikiTer
 
-    void on_comboBox_9_currentTextChanged(const QString &arg1);
+    void on_comboBox_9_currentTextChanged(const QString &arg1); //Название метода (слота) не ассоциируются с объектам, с которым он работает @NikiTer
 
-    void on_comboBox_10_currentTextChanged(const QString &arg1);
+    void on_comboBox_10_currentTextChanged(const QString &arg1);//Название метода (слота) не ассоциируются с объектам, с которым он работает @NikiTer
 
-    void on_comboBox_11_currentTextChanged(const QString &arg1);
+    void on_comboBox_11_currentTextChanged(const QString &arg1);//Название метода (слота) не ассоциируются с объектам, с которым он работает @NikiTer
 
-    void on_comboBox_12_currentTextChanged(const QString &arg1);
+    void on_comboBox_12_currentTextChanged(const QString &arg1);//Название метода (слота) не ассоциируются с объектам, с которым он работает @NikiTer
 
     void on_Load_triggered();
 

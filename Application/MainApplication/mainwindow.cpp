@@ -71,6 +71,11 @@ void MainWindow::readFile(int ID)
 {
     QTextCodec::setCodecForLocale(QTextCodec::codecForName("Windows-1251"));
 
+    /* Структуру "if(...) ... else if(...) ..." можно заменть на switch(...).
+     * А лучше, т.к. действия однотипные, записать названия файлов в массив или список,
+     * и обращатся к ним по индексу, соответствующемй параметру "ID".
+     * @NikiTer
+     * */
     if(ID == 0)
     {
         QFile Config("System/Motherboard.txt");
@@ -307,6 +312,10 @@ void MainWindow::getTotalPrice()
     QString part_sum = "";
     double sum = 0;
 
+    /* Если хранить объекты "Label" в массиве и совершать с ними
+     * эти же однотипные действия в цикле, то код можно сократить в 12 раз
+     * @NikiTer
+     * */
     part_sum = ui->label_14->text().split(' ').at(0);
     sum += part_sum.toDouble();
 
@@ -356,6 +365,11 @@ void MainWindow::getTotalPrice()
 }
 
 // следующие 12 методов пересчитывают цену, если какой-либо из параметров конфигурации был изменён
+
+/* Все методы однотипны и могут быть заменены на один метод с большим количеством входных параметорв,
+ * что уменьшит код примерно в %количество_методов% раз.
+ * @NikiTer
+ * */
 void MainWindow::on_comboBox_currentTextChanged(const QString &arg1)
 {
     int k = 0, s = 0;
@@ -710,6 +724,10 @@ void MainWindow::on_Load_triggered()
     value = File.readLine();
     list.push_back(value);
 
+    /* Однотипные действия, которые можно сократить,
+     * если использовать массивы или списки для хранения объектов.
+     * @NikiTer
+     * */
     ui->comboBox->setCurrentText(list[0]);
     ui->comboBox_2->setCurrentText(list[1]);
     ui->comboBox_3->setCurrentText(list[2]);
